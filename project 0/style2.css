@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+
+    font-family: Arial, sans-serif;
+}
+
+#nav-bar{
+    padding: 20px;
+    /* background-color: aqua; */
+    height: 50px;
+}
+
+#title{
+    padding: 0px;
+    padding-left: 50px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    font-size: large;
+    /* font-weight: bold; */
+    color: #d93025;
+    /* background-color: blue; */
+}
+
+#container{
+    /* margin: 10px; */
+    padding: 30px;
+    /* background-color: aquamarine; */
+    height: 500px;
+}
+
+.div-col{
+    display: flex;
+}
+
+.lab{
+    margin: 5px;
+    padding: 5px;
+    padding-top: 15px;
+    font-size: small;
+    /* background-color: antiquewhite; */
+    
+    width: 200px;
+    height: 20px;
+}
+
+.textbox{
+    margin: 5px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin-left: 200px; */
+    font-size: small;
+    width: 550px;
+    height: 20px;
+}
+
+#search-button{
+    margin: 10px;
+    padding: 5px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    width: 550px;
+    height: 40px;
+}
+#search-button> input{
+    background-color: rgb(48, 121, 237);
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+#search-button> input:hover{
+    background-color: rgb(41, 100, 194);
+
+}

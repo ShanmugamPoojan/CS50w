@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <div>
+            <a href="index.html">Google Search</a>
+        </div>
+        <div>
+            <a href="advanced.html">Advance search</a>
+        </div>
+    </div>
+
+    <div id="logo">
+        <img src="google-images.png" alt="logo" width="400px">
+    </div>
+    
+    <div id="container">
+        <form action="https://www.google.com/search" id="form">
+            <input type="text" name="q"placeholder="Search" id="search-bar">
+            <input type="hidden" name="tbm" value="isch">
+            <div id="button">
+                <input type="submit" value="Search images" id="submit-button" class="button">
+                <input type="submit" value="I'm feeling lucky" src="https://doodles.google/" id="lucky-button" class="button">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
